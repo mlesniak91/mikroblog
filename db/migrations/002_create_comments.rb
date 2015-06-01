@@ -4,7 +4,7 @@ Sequel.migration do
       primary_key :id
       String :author, null: false
       String :body, null: false, text: true
-      Timestamp :created_at, null: false, default: '(datetime(now,localtime))'
+      Timestamp :created_at, null: false, default: 'now()'
       foreign_key :article_id, :articles, on_delete: :cascade, null: false
     end
   end

@@ -13,7 +13,7 @@ gem 'lotus-view',        require: false, github: 'lotus/view'
 gem 'lotus-model',       require: false, github: 'lotus/model'
 gem 'lotusrb',                           github: 'lotus/lotus'
 
-gem 'sqlite3'
+gem 'pg'
 gem 'kramdown'
 
 group :test do

@@ -4,7 +4,7 @@ Sequel.migration do
       primary_key :id
       String :title, null: false
       String :body, text: true, null: false
-      Timestamp :created_at, null: false
+      Timestamp :created_at, null: false, default: 'now()'
     end
     self[:articles].insert([1, 'Framework Lotus', 'Lotus is a modular web framework. It scales from single file HTTP endpoints to multiple applications in the same Ruby process. 
                                                                                                       Unlike other Ruby web frameworks, Lotus has flexible conventions for code structure. Developers can arrange the layout of their 
