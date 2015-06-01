@@ -14,7 +14,7 @@ Lotus::Model.configure do
   #    adapter type: :sql, uri: 'postgres://localhost/demo_development'
   #    adapter type: :sql, uri: 'mysql://localhost/demo_development'
   #
-  adapter type: :sql, uri: ENV['DEMO_DATABASE_URL']
+  adapter type: :sql, uri: 'postgres://inpeiusoklxbqs:_RyT-oSzgE8Oqfeow5NoF1tzl2@ec2-54-204-35-248.compute-1.amazonaws.com:5432/dcjuat1t30ssa3'
 
   ##
   # Database mapping

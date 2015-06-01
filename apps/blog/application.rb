@@ -94,7 +94,7 @@ module Blog
       #                         'postgres://localhost/bookshelf'
       #                         'mysql://localhost/bookshelf'
       #
-      adapter type: :sql, uri: ENV['DEMO_DATABASE_URL']
+      adapter type: :sql, uri: 'postgres://inpeiusoklxbqs:_RyT-oSzgE8Oqfeow5NoF1tzl2@ec2-54-204-35-248.compute-1.amazonaws.com:5432/dcjuat1t30ssa3'
 
       # Configure a database mapping
       # See: http://www.rubydoc.info/gems/lotus-model#Data_Mapper
